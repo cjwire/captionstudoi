@@ -1,0 +1,156 @@
+*{margin: 0%;
+padding: 0%;}
+
+body{
+    background-image: url(/roberto-nickson-fl2myUOVYzA-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    /* background: rgb(255, 255, 255);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%); */
+
+}
+
+
+.contain{
+    border: 2px solid rgb(227, 18, 18);
+    display: flex;
+    width: 90%;
+    text-shadow: 2px 2px 5px  rgb(191, 251, 26);
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: auto;
+    padding: 5px 5px;
+    margin-right: auto;
+    justify-content: center;
+    color: white;
+    }
+
+.contain-all{display: flex;
+flex-wrap: wrap;}
+
+.contain h1{font-size: 50px;}
+
+.enlar{
+    margin-top: 50px;
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 2px 5px  red;
+    text-align: center;
+    }
+
+.contain:hover{
+    border: 3px solid gold;
+    font-size: 18px;
+    transition: 0.3s;}
+    
+img:hover{
+    border: 3px solid rgb(34, 0, 255);
+    transition: 0.10s;}
+
+    .mage1:hover{border: 3px solid blue;
+    transition: 0.4s;}
+
+img{width: 350px;
+    margin: auto;
+     border-radius: 20px;
+    background-clip: border-box;
+    height: 40vh;
+    box-shadow: 1px 0px  10px 2px rgb(218, 21, 50);
+    margin: 20px;}
+
+.mage{
+    margin-top: 15px;
+    display: grid;
+    margin: 120px;
+    grid-template-columns: auto auto auto;}
+
+.mage p{
+    color: rgb(0, 0, 0);
+    font-size: 18px;}
+
+.col .pu{color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 500;
+    font-style: inherit;
+    font-family: 'Times New Roman', Times, serif;
+    text-indent: 5px;
+    font-size: 20px;}
+
+
+.col .put{color: #fffab6;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 500;
+    font-style: inherit;
+    font-family: 'Times New Roman', Times, serif;
+    text-indent: 5px;
+    font-size: 20px;}
+
+.dispay{
+    font-size: 70px;
+    margin: 20px;
+    color: rgb(148, 237, 40);
+    flex-wrap: wrap;}
+
+.follow{
+    color: white;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;}
+
+.mage1{color: white;
+    border: none;
+    width: 15%;
+    padding: 5px 2px;
+    border-radius: 10px;
+    display: flex;
+    background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;}
+
+
+@media(max-width:769px){
+    .contain h1{font-size: 20px;}
+    .enlar{font-size: 40px;}
+    .dispay{font-size: 25px;}
+    .contain{width: 250px;}
+    
+    .mach img{
+    height: 15vh;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    width: 100px;
+    margin: 4px;}
+
+body{
+    background-size: cover;}
+
+.mage{display: grid;
+    margin: auto;
+    margin-top: 50px;
+     grid-template-columns: auto auto auto;
+    }
+ 
+
+.mage1{
+    width: 200px;
+    margin: 40px;}
+
+
+ .col .pu{
+    font-size: 16px;
+     }
+
+
+.col .put{
+    font-size: 16px;
+     } 
+    }
